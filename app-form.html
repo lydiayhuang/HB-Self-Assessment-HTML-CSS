@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Application Form</title>
+</head>
+<body>
+<h1>Application Form</h1>
+
+</table>
+
+<p>Please fill out the form line by line. Be sure to complete all fields.</p>
+
+<form action ="/application-success" method="post">
+
+    First Name <input type="text" name="firstname"><br>
+
+<!--     <span style="font-weight:bold">Last Name</span> <input type="text" name="lastname"><br> -->
+
+    <span id="lastname">Last Name</span><input type="text" name="lastname"><br>
+
+
+    Please select the job you are applying for:
+    <select job="jobtype">
+        <option value="Software Engineer">Software Engineer</option>
+        <option value="QA Engineer">QA Engineer</option>
+        <option value="Product Manager">Product Manager</option>
+       
+    </select>
+    <br>
+
+    *What is your salary requirement?
+    <input type="text" name="quantity"><br>
+
+    <input type="submit">
+
+</form>
+
+<footer>*Input must be in numerical values for salary.</footer>
+
+</body>
+</html>

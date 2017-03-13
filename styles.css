@@ -1,0 +1,17 @@
+input[type="text"], input[type="submit"] {
+
+  background-color : yellow; 
+
+}
+
+
+p {
+    border: 1px solid #000
+   
+}
+
+#lastname {
+   font-weight: bold;
+}
+
+
